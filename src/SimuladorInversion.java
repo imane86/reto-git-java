@@ -9,10 +9,10 @@ public class SimuladorInversion {
         System.out.print("Ingresa tu capital inicial: ");
         double capital = sc.nextDouble();
         
-        System.out.print("Precio de la acción a comprar: ");
+        System.out.print("Precio de la accion a comprar: ");
         double precioAccion = sc.nextDouble();
         
-        System.out.print("Número de acciones a comprar: ");
+        System.out.print("Numero de acciones a comprar: ");
         int cantidad = sc.nextInt();
         
         double totalInvertido = precioAccion * cantidad;
@@ -36,3 +36,4 @@ public class SimuladorInversion {
         sc.close();
     }
 }
+// Añade validación de entradas
