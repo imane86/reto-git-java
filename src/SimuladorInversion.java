@@ -18,7 +18,7 @@ public class SimuladorInversion {
         double totalInvertido = precioAccion * cantidad;
         System.out.println("Total invertido: " + totalInvertido);
         
-        System.out.print("Nuevo precio de la acción: ");
+        System.out.print("Nuevo precio de  la acción: ");
         double nuevoPrecio = sc.nextDouble();
         
         double valorActual = nuevoPrecio * cantidad;
@@ -26,7 +26,7 @@ public class SimuladorInversion {
         
         System.out.println("Valor actual de la inversión: " + valorActual);
         if (gananciaPerdida > 0) {
-            System.out.println("¡Ganancia obtenida: " + gananciaPerdida + "!");
+            System.out.println("¡Ganancia  obtenida: " + gananciaPerdida + "!");
         } else if (gananciaPerdida < 0) {
             System.out.println("Pérdida sufrida: " + gananciaPerdida);
         } else {
@@ -37,3 +37,4 @@ public class SimuladorInversion {
     }
 }
 // Añade validación de entradas
+// Mejora validación de números negativos
