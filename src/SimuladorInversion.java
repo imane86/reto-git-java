@@ -12,13 +12,13 @@ public class SimuladorInversion {
         System.out.print("Precio de la acción a comprar: ");
         double precioAccion = sc.nextDouble();
         
-        System.out.print("Número de acciones a comprar: ");
+        System.out.print("Numero de acciones a comprar: ");
         int cantidad = sc.nextInt();
         
         double totalInvertido = precioAccion * cantidad;
         System.out.println("Total invertido: " + totalInvertido);
         
-        System.out.print("Nuevo precio de la acción: ");
+        System.out.print("Nuevo precio de la accino: ");
         double nuevoPrecio = sc.nextDouble();
         
         double valorActual = nuevoPrecio * cantidad;
