@@ -30,7 +30,7 @@ public class SimuladorInversion {
         } else if (gananciaPerdida < 0) {
             System.out.println("Pérdida sufrida: " + gananciaPerdida);
         } else {
-            System.out.println("No hay ganancia ni pérdida.");
+            System.out.println("No hay ganancia ni pérdida, sin cambios.");
         }
         
         sc.close();
